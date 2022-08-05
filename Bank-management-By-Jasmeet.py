@@ -90,7 +90,7 @@ class BankSystem:
 
 if __name__ == '__main__':
 
-    con = c.connect(host="localhost",user="root",passwd="@Jasmeet2001",database="bankdb")
+    con = c.connect(host="localhost",user="root",passwd="*********",database="bankdb")
     # Acts like a bridge to transfer data
     cursor = con.cursor()
     b = BankSystem()
